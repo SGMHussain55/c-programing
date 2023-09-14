@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int n,i,flag;
+	scanf("%d",&n);
+	flag=1;
+	for(i=2;i<=n/2;++i)
+	flag++;
+	if(flag==1)
+	printf("it is a prime number");
+   else
+  printf("it is not a prime number");
+  return 0;
+}
